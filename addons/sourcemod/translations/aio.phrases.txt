@@ -1,0 +1,673 @@
+//**********************************************  Valid Colors	***********************************************
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}  *
+//*************************************************************************************************************
+
+"Phrases"
+{
+/************************ GENERAL WORDS ************************/
+	"Enabled"
+	{
+        "en"			"Enabled"
+		"fr"			"Activé"
+	}
+	"Disabled"
+	{
+        "en"			"Disabled"
+		"fr"			"Désactivé"
+	}
+/******************* WELCOME GENERAL MESSAGE *******************/
+    "Copyright Msg Hint"
+	{
+        "en"			"This server is running <font color='#FF0000'>AIO</font> \n<font color='#00FF00'>Version:</font> 1.0.0\n By <font color='#00FF00'>http://doyou.watch</font>"
+		"fr"			"Ce serveur utilise <font color='#FF0000'>AIO</font> \n<font color='#00FF00'>Version:</font> 1.0.0\n By <font color='#00FF00'>http://doyou.watch</font>"
+	}
+	"Copyright Msg Chat"
+	{
+        "en"			"[{GREEN}AIO{NORMAL}] - AIO menu type: {GREEN}!aio"
+		"fr"			"[{GREEN}AIO{NORMAL}] - AIO menu tapez: {GREEN}!aio"
+	}
+	"Copyright Msg Chat2"
+	{
+        "en"			"[{GREEN}AIO{NORMAL}] - Developped by {RED}http://doyou.watch"
+		"fr"			"[{GREEN}AIO{NORMAL}] - Developpé par {RED}http://doyou.watch"
+	}
+/******************** PLUGIN: MENU GENERAL ********************/
+	"Menu General"
+	{
+		"en"			"Menu: AIO"
+		"fr"			"Menu: AIO"
+	}
+	"Track Bomb menu"
+	{
+		"en"			"[AIO - TRACK BOMB]"
+		"fr"			"[AIO - TRAQUER DE BOMBE]"
+	}
+	"Show Damage menu"
+	{
+		"en"			"[AIO - SHOW DAMAGE]"
+		"fr"			"[AIO - AFFICHAGE DES DOMMAGES]"
+	}
+	"Sounds Kill menu"
+	{
+		"en"			"[AIO - SOUNDS KILL]"
+		"fr"			"[AIO - SONS DE TUERIE]"
+	}
+/********************* PLUGIN: TRACK BOMB *********************/
+	
+	"Menu Track bomb settings"
+	{
+		"en"			"Menu: Track Bomb"
+		"fr"			"Menu: Track Bomb"
+	}
+	"Track Bomb menu settings sound"
+	{
+		"#format"		"{1:s}"
+		"en"			"Sounds: {1}"
+		"fr"			"Sons: {1}"
+	}
+	"Track Bomb site bomb menu title"
+	{
+		"en"			"Track Bomb menu: Choose the site bomb"
+		"fr"			"Traqueur de bombe menu: Choix du site bombe"
+	}
+	"Track Bomb way menu title"
+	{
+		"en"			"Track Bomb menu: Choose the way"
+		"fr"			"Traqueur de bombe menu: Choix du chemin"
+	}
+	"Track Bomb direction menu"
+	{
+		"#format"		"{1:s}"
+		"en"			"Bomb site: {1}"
+		"fr"			"Site bombe: {1}"
+	}
+	"Track Bomb way menu"
+	{
+		"#format"		"{1:s}"
+		"en"			"Way by: {1}"
+		"fr"			"Par: {1}"
+	}
+	"Track Bomb direction and way chat holder"
+	{
+		"#format"		"{1:s}"
+		"en"			"[{GREEN}TRACK BOMB{NORMAL}] - The bearer of bomb is: {RED}{1}{NORMAL}"
+		"fr"			"[{GREEN}TRACK BOMB{NORMAL}] - Le porteur de bombe est: {RED}{1}{NORMAL}"
+	}
+	"Track Bomb direction and way chat direction"
+	{
+		"#format"		"{1:s}"
+		"en"			"[{GREEN}TRACK BOMB{NORMAL}] - Objective bomb site: {GREEN}{1}{NORMAL}"
+		"fr"			"[{GREEN}TRACK BOMB{NORMAL}] - Objectif site bombe: {GREEN}{1}{NORMAL}"
+	}
+	"Track Bomb direction and way chat way"
+	{
+		"#format"		"{1:s}"
+		"en"			"[{GREEN}TRACK BOMB{NORMAL}] - Via: {GREEN}{1}{NORMAL}"
+		"fr"			"[{GREEN}TRACK BOMB{NORMAL}] - Par: {GREEN}{1}{NORMAL}"
+	}
+	"Track Bomb direction and way hint"
+	{
+		"#format"		"{1:s},{2:s}"
+        "en"			"Objective bomb site: <font color='#009900'>{1}</font>.\n Via: <font color='#009900'>{2}</font>."
+		"fr"			"Objectif site bombe: <font color='#009900'>{1}</font>.\n Par: <font color='#009900'>{2}</font>."
+	}
+	"Track Bomb direction and way alert"
+	{
+		"#format"		"{1:s},{2:s}"
+        "en"			"Objective bomb site: {1}.\n Via: {2}."
+		"fr"			"Objectif site bombe: {1}.\n Via: {2}."
+	}
+	"Track bomb bomb dropped chat"
+	{
+		"#format"		"{1:s}"
+        "en"			"[{GREEN}TRACK BOMB{NORMAL}] - Bomb dropped at: {1}"
+		"fr"			"[{GREEN}TRACK BOMB{NORMAL}] - Bombe jettée à: {1}"
+	}
+	"Track bomb bomb dropped hint"
+	{
+		"#format"		"{1:s}"
+        "en"			"Bomb dropped at: <font color='#009900'>{1}</font>"
+		"fr"			"Bombe jettée à: <font color='#009900'>{1}</font>"
+	}
+	"Track bomb bomb dropped alert"
+	{
+		"#format"		"{1:s}"
+        "en"			"Bomb dropped at: {1}"
+		"fr"			"Bombe jettée à: {1}"
+	}
+	"Track bomb bomb pickup chat"
+	{
+		"#format"		"{1:s}"
+        "en"			"[{GREEN}TRACK BOMB{NORMAL}] - Bomb pickup at: {1}"
+		"fr"			"[{GREEN}TRACK BOMB{NORMAL}] - Bombe ramassée à: {1}"
+	}
+	"Track bomb bomb pickup hint"
+	{
+		"#format"		"{1:s}"
+        "en"			"Bomb pickup at: <font color='#009900'>{1}</font>"
+		"fr"			"Bombe ramassée à: <font color='#009900'>{1}</font>"
+	}
+	"Track bomb bomb pickup alert"
+	{
+		"#format"		"{1:s}"
+        "en"			"Bomb pickup at: {1}"
+		"fr"			"Bombe ramassée à: {1}"
+	}
+	"Track bomb bomb planted chat"
+	{
+		"#format"		"{1:s}"
+        "en"			"[{GREEN}TRACK BOMB{NORMAL}] - Bomb planted at: {1}"
+		"fr"			"[{GREEN}TRACK BOMB{NORMAL}] - Bombe plantée à: {1}"
+	}
+	"Track bomb bomb planted hint"
+	{
+		"#format"		"{1:s}"
+        "en"			"Bomb planted at: <font color='#009900'>{1}</font>"
+		"fr"			"Bombe plantée à: <font color='#009900'>{1}</font>"
+	}
+	"Track bomb bomb planted alert"
+	{
+		"#format"		"{1:s}"
+        "en"			"Bomb planted at: {1}"
+		"fr"			"Bombe plantée à: {1}"
+	}
+	"Track bomb bomb player die chat"
+	{
+		"#format"		"{1:s}"
+        "en"			"[{GREEN}TRACK BOMB{NORMAL}] - The bearer of bomb die at: {1}"
+		"fr"			"[{GREEN}TRACK BOMB{NORMAL}] - Le porteur de bombe est mort à: {1}"
+	}
+	"Track bomb bomb player die hint"
+	{
+		"#format"		"{1:s}"
+        "en"			"The bearer of bomb die at: <font color='#009900'>{1}</font>"
+		"fr"			"Le porteur de bombe est mort à: <font color='#009900'>{1}</font>"
+	}
+	"Track bomb bomb player die alert"
+	{
+		"#format"		"{1:s}"
+        "en"			"The bearer of bomb die at: {1}"
+		"fr"			"Le porteur de bombe est mort à: {1}"
+	}
+	"Track bomb bomb abort chat"
+	{
+		"#format"		"{1:s}"
+        "en"			"[{GREEN}TRACK BOMB{NORMAL}] - Bomb aborted at: {1}"
+		"fr"			"[{GREEN}TRACK BOMB{NORMAL}] - Plantage interrompu à: {1}"
+	}
+	"Track bomb bomb abort hint"
+	{
+		"#format"		"{1:s}"
+        "en"			"Bomb aborted at: <font color='#009900'>{1}</font>"
+		"fr"			"Plantage interrompu à: <font color='#009900'>{1}</font>"
+	}
+	"Track bomb bomb abort alert"
+	{
+		"#format"		"{1:s}"
+        "en"			"Bomb aborted at: {1}"
+		"fr"			"Plantage interrompu à: {1}"
+	}
+	"Track Bomb holder explode chat"
+	{
+		"#format"		"{1:s},{2:s},{3:i},{4:i}"
+        "en"			"[{GREEN}TRACK BOMB{NORMAL}] - Bomb hit {3}/{4}. {1} {RED}exploded{NORMAL} {2}"
+		"fr"			"[{GREEN}TRACK BOMB{NORMAL}] - Bombe touchée {3}/{4}. {1} {RED}a explosé{NORMAL} {2}"
+	}
+	"Track Bomb holder explode hint"
+	{
+		"#format"		"{1:s},{2:s},{3:i},{4:i}"
+        "en"			"Bomb hit {3}/{4} \n{1} <font color='#FF0000'>exploded</font> {2}"
+		"fr"			"Bombe touchée {3}/{4} \n{1} <font color='#FF0000'>a explosé</font> {2}"
+	}
+	"Track Bomb holder explode alert"
+	{
+		"#format"		"{1:s},{2:s},{3:i},{4:i}"
+        "en"			"Bomb hit {3}/{4} \n{1} exploded {2}"
+		"fr"			"Bombe touchée {3}/{4} \n{1} a explosé {2}"
+	}
+	"Track bomb bomb hit terro chat"
+	{
+		"#format"		"{1:i},{2:i}"
+        "en"			"[{GREEN}TRACK BOMB{NORMAL}] - {RED}Warning{NORMAL}: bomb hit {1}/{2}"
+		"fr"			"[{GREEN}TRACK BOMB{NORMAL}] - {RED}Attention{NORMAL}: Bombe touchée {1}/{2}"
+	}
+	"Track bomb bomb hit terro hint"
+	{
+		"#format"		"{1:i},{2:i}"
+        "en"			"<font color='#FF0000'>Warning</font>: bomb hit {1}/{2}"
+		"fr"			"<font color='#FF0000'>Attention</font>: Bombe touchée {1}/{2}"
+	}
+	"Track bomb bomb hit terro alert"
+	{
+		"#format"		"{1:i},{2:i}"
+        "en"			"Bomb hit {1}/{2}"
+		"fr"			"Bombe touchée {1}/{2}"
+	}
+	"Track bomb bomb hit ct chat"
+	{
+		"#format"		"{1:i},{2:i}"
+        "en"			"[{GREEN}TRACK BOMB{NORMAL}] - Bomb hit {1}/{2}. Keep going!"
+		"fr"			"[{GREEN}TRACK BOMB{NORMAL}] - Bombe touchée {1}/{2}. Continuer comme ça!"
+	}
+	"Track bomb bomb hit ct hint"
+	{
+		"#format"		"{1:i},{2:i}"
+        "en"			"Bomb hit {1}/{2} \nKeep going!"
+		"fr"			"Bombe touchée {1}/{2} \nContinuer comme ça!"
+	}
+	"Track bomb bomb hit ct alert"
+	{
+		"#format"		"{1:i},{2:i}"
+        "en"			"Bomb hit {1}/{2} \nKeep going!"
+		"fr"			"Bombe touchée {1}/{2} \nContinuer comme ça!"
+	}
+	
+/*********************** PLUGIN: WOR ***********************/
+	"WOD useless chat"
+	{
+        "en"			"[{GREEN}WOD{NORMAL}] - You are {RED}useless{NORMAL}, unnecessary things are going in the {RED}trash{NORMAL}."
+		"fr"			"[{GREEN}WOD{NORMAL}] - Vous êtes {RED}inutiles{NORMAL}, Les choses inutiles vont à la {RED}poubelle{NORMAL}."
+	}
+	"WOD useless alert"
+	{
+        "en"			"You are useless. \nUnnecessary things are going in the trash."
+		"fr"			"Vous êtes inutiles. \nLes choses inutiles vont à la poubelle."
+	}
+	
+/******************* PLUGIN: SHOW DAMAGE *******************/
+	"Show damage menu settings"
+	{
+		"en"			"Menu: Show Damage"
+		"fr"			"Menu: Affichage des dommages"
+	}
+	"Show damage menu settings message"
+	{
+		"#format"		"{1:s}"
+		"en"			"Show Damage: {1}"
+		"fr"			"Affichage des dommages: {1}"
+	}
+	"Head"
+	{
+        "en"			"Head"
+		"fr"			"Tête"
+	}
+	"Chest"
+	{
+        "en"			"Chest"
+		"fr"			"Poitrine"
+	}
+	"Stomach"
+	{
+        "en"			"Stomach"
+		"fr"			"Ventre"
+	}
+	"Left arm"
+	{
+        "en"			"Left arm"
+		"fr"			"Bras gauche"
+	}
+	"Right arm"
+	{
+        "en"			"Right arm"
+		"fr"			"Bras droit"
+	}
+	"Left leg"
+	{
+        "en"			"Left leg"
+		"fr"			"Jambe gauche"
+	}
+	"Right leg"
+	{
+        "en"			"Right leg"
+		"fr"			"Jambe droite"
+	}
+	"Show damage hit message body"
+	{
+		"#format"		"{1:s},{2:i},{3:i}"
+        "en"			"{1}: health: -{2}, armor: -{3}"
+		"fr"			"{1}: vie: -{2}, armure: -{3}"
+	}
+	"Show damage hit message"
+	{
+		"#format"		"{1:i},{2:i}"
+        "en"			"Health: -{1}, armor: -{2}"
+		"fr"			"Vie: -{1}, armure: -{2}"
+	}	
+	
+/******************* PLUGIN: SOUND KILL *******************/
+	"Sounds Kill settings"
+	{
+		"en"			"Menu: Sounds Kill"
+		"fr"			"Menu: Sons de tuerie"
+	}
+	"Sounds Kill menu settings text"
+	{
+		"#format"		"{1:s}"
+		"en"			"Texts: {1}"
+		"fr"			"Textes: {1}"
+	}
+	"Sounds Kill menu settings sound"
+	{
+		"#format"		"{1:s}"
+		"en"			"Sounds: {1}"
+		"fr"			"Sons: {1}"
+	}
+	"Sounds Kill menu settings sound set name"
+	{
+		"#format"		"{1:s}"
+		"en"			"Sounds: {1}"
+		"fr"			"Sons: {1}"
+	}
+	"Sounds Kill menu no sound"
+	{
+		"en"			"Disable all sounds"
+		"fr"			"Désactiver les sons"
+	}
+	"Sounds Kill headshot"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} Headshot"
+		"de"		"{1} Kopfschuss"
+		"fr"		"{1} aime les grosses têtes !!"
+		"pt"		"{1} conseguiu um Tiro na Cabeça"
+	}
+	"Sounds Kill headshot 1"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} Headshot"
+		"de"		"{1} Kopfschuss"
+		"fr"		"{1} aime les grosses têtes !!"
+		"pt"		"{1} conseguiu um Tiro na Cabeça"
+	}
+	"Sounds Kill headshot 3"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} Hattrick"
+		"de"		"{1} Hattrick"
+		"fr"		"{1} Tour du chapeau"
+		"pt"		"{1} tem Habilidade com Cabeças"
+	}
+	"Sounds Kill headshot 5"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} Head Hunter"
+		"de"		"{1} Kopfj?񧥲"
+		"fr"		"{1} Chasseur de Tête"
+		"pt"		"{1} Caçador de Cabeças"
+	}
+	"Sounds Kill killsound 4"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} is Dominating"
+		"de"		"{1} dominiert"
+		"fr"		"{1} maitrise grave !!"
+		"pt"		"{1} está Dominando!"
+	}
+	"Sounds Kill killsound 6"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} is on Rampage"
+		"de"		"{1} randaliert"
+		"fr"		"{1} déchire tout !!"
+		"pt"		"{1} está Violento!"
+	}
+	"Sounds Kill killsound 8"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} is on a Killing Spree"
+		"de"		"{1} ist auf einem Amoklauf"
+		"fr"		"{1} est bien le meilleur !!"
+		"pt"		"{1} está se Divertindo!"
+	}
+	"Sounds Kill killsound 10"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} just got a Monster Kill"
+		"de"		"{1} hat einen Monster Kill"
+		"fr"		"{1} invente des frags !!"
+		"pt"		"{1} está numa Matança Monstruosa!"
+	}
+	"Sounds Kill killsound 14"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} is Unstoppable"
+		"de"		"{1} ist nicht aufzuhalten"
+		"fr"		"{1} est intenable !!"
+		"pt"		"{1} não PÁRA!!"
+	}
+	"Sounds Kill killsound 16"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} Ultrakill"
+		"de"		"{1} Ultrakill"
+		"fr"		"{1} va tous les dégouter !!"
+		"pt"		"{1} é um Assassino Profissional!"
+	}
+	"Sounds Kill killsound 18"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} is Godlike"
+		"de"		"{1} gleicht einem Gott"
+		"fr"		"{1} ,Dieu est sur terre !!"
+		"pt"		"{1} é como um DEUS!"
+	}
+	"Sounds Kill killsound 20"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} is Wicked Sick"
+		"de"		"{1} ist ernsthaft krank im Kopf"
+		"fr"		"{1} est un Foufou !!"
+		"pt"		"{1} está com uma Doença Vingativa!"
+	}
+	"Sounds Kill killsound 22"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} is Impressive"
+		"de"		"{1} ist beeindruckend"
+		"fr"		"{1} est impressionnant !!"
+		"pt"		"{1} é Impressionante!"
+	}
+	"Sounds Kill killsound 24"
+	{
+		"#format"	"{1:s}"
+		"en"		"Ludicrous Kill by {1}"
+		"de"		"Irsinniger Kill von {1}"
+		"fr"		"{1} est mort de rire !!"
+		"pt"		"Genocídio Absurdo por {1}"
+	}
+	"Sounds Kill killsound 26"
+	{
+		"#format"	"{1:s}"
+		"en"		"HOLY SHIT, {1} is a bad ass"
+		"de"		"Heilige Schei?ĥ, {1} ist wahnsinnig"
+		"fr"		"Incroyable, {1} ;quelle mauvais garçon"
+		"pt"		"Puta Merda, {1} é muito foda!
+	}
+	"Sounds Kill combo 2"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} just pulled off a Double Kill"
+		"de"		"{1} hat gerade zwei auf einmal niedergestreckt"
+		"fr"		"{1} vien dans tué 2 de suite"
+		"pt"		"{1} acabou de conseguir uma Morte Dupla"
+	}
+	"Sounds Kill combo 3"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} just pulled off a Triple Kill"
+		"de"		"{1} hat gerade drei auf einem niedergestreckt"
+		"fr"		"{1} vien dans tué 3 de suite"
+		"pt"		"{1} acabou de conseguir uma Morte Tripla" 
+	}
+	"Sounds Kill combo 4"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} just pulled off a Quadruple Combo"
+		"de"		"{1} hat gerade vier auf einmal niedergestreckt"
+		"fr"		"{1} vien de faire un Quadruple Combo"
+		"pt"		"{1} acabou de conseguir uma Morte Quádrupla"
+	}
+	"Sounds Kill combo 5"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} is a Combo Whore"
+		"de"		"{1} ist eine Comboschlampe"
+		"fr"		"{1} est une putain du combo"
+		"pt"		"{1} é o Mestre dos Combos!"
+	} 
+	"Sounds Kill first blood"
+	{
+		"#format"	"{1:s}"
+		"en"		"First Blood"
+		"de"		"Erstes Blut vergossen"
+		"fr"		"{1} a fait la 1ere victime!"
+		"pt"		"{1} conseguiu o Primeiro Sangue!"
+	}	
+	"Sounds Kill grenade"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"{1} detonated {2} with a grenade"
+		"de"		"{1} sprengte {2} mit einer Granate"
+		"fr"		"{1} explose {2} avec une grenade"
+		"pt"		"{1} detonou {2} com uma granada"
+	}
+	"Sounds Kill selfkill"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} humiliated himself"
+		"de"		"{1} hat sich selbst erniedrigt"
+		"fr"		"{1} SӨumilie lui-même"
+		"pt"		"{1} se humilhou"
+	}
+	"Sounds Kill round play"
+	{
+		"en"		"Play"
+		"de"		"Spielt"
+		"fr"		"Prépare toi !!"
+		"pt"		"Bom Jogo!"
+	}
+	"Sounds Kill knife"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"{2} was embarrassed with the knife by {1}"
+		"de"		"{2} wurde durch einen Messerkill von {1} blo?ħestellt"
+		"fr"		"{2} découpé par {1}"
+		"pt"		"{2} foi humilhado com uma faca por {1}"
+	}
+	"Sounds Kill teamkill"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"{1} just victimized his team teammate {2}"
+		"de"		"{1} hat gerade seinen Teamkamerad {2} niedergestreckt"
+		"fr"		"{1} a tué son pote {2}"
+		"pt"		"{1} acabou de matar o amigo {2}"
+	}
+	"standard"
+	{
+		"en"		"Standard Sounds"
+		"de"		"Standard Sounds"
+		"fr"		"Voix Standard"
+		"pt"		"Sons Masculinos"
+	}
+	"female"
+	{
+		"en"		"Female Sounds"
+		"de"		"Weibliche Sounds"
+		"fr"		"Voix de Femme"
+		"pt"		"Sons Femininos"
+	}
+	"french"
+	{
+		"en"		"French Sounds"
+		"fr"		"Voix Française"
+	}	
+
+/******************* PLUGIN: AFK MANAGER *******************/	
+	"Move_Warning"
+	{
+		"#format"	"{1:i}"
+		"en"		"[{GREEN}AFK MANAGER{NORMAL}] - Warning: If you do not move in {RED}{1}{NORMAL} seconds, you will be moved to spectate."
+		"de"		"[{GREEN}AFK MANAGER{NORMAL}] - Warnung: Wenn du dich nicht in {RED}{1}{NORMAL} Sekunden bewegst, wirst du in den Zuschauermodus versetzt."
+		"da"		"[{GREEN}AFK MANAGER{NORMAL}] - Advarsel: Hvis ikke du bevæger dig inden {RED}{1}{NORMAL} sekunder, vil du blive gjort til tilskuer."
+		"fr"		"[{GREEN}AFK MANAGER{NORMAL}] - Attention: Si vous ne bougez pas dans les {RED}{1}{NORMAL} prochaines secondes, vous deviendrez spectateur."
+		"pl"		"[{GREEN}AFK MANAGER{NORMAL}] - Uwaga: Jeżeli się nie poruszysz w ciągu {RED}{1}{NORMAL} sekund(y), zostaniesz przeniesiony do obserwatorów."
+		"hu"		"[{GREEN}AFK MANAGER{NORMAL}] - Figyelem: Ha nem mozdulsz meg {RED}{1}{NORMAL} másodpercen belül, akkor át leszel helyezve nézőnek!"
+		"ru"		"[{GREEN}AFK MANAGER{NORMAL}] - ВНИМАНИЕ: Начните двигаться, или через {RED}{1}{NORMAL} сек. отправитесь в наблюдатели."
+		"es"		"[{GREEN}AFK MANAGER{NORMAL}] - Advertencia: Si usted no se mueve en {RED}{1}{NORMAL} segundos, usted será movido a espectador."
+		"pt"		"[{GREEN}AFK MANAGER{NORMAL}] -PERIGO: se voce nao se mover em {RED}{1}{NORMAL} segundos, voce sera movido para espectador."
+		"tr"		"[{GREEN}AFK MANAGER{NORMAL}] - Dikkat: {RED}{1}{NORMAL} saniye içinde hareket etmezseniz izleyicilere atılacaksınız."
+	}
+
+	"Kick_Warning"
+	{
+		"#format"	"{1:i}"
+		"en"		"[{GREEN}AFK MANAGER{NORMAL}] - Warning: If you do not move in {RED}{1}{NORMAL} seconds, you will be kicked."
+		"de"		"[{GREEN}AFK MANAGER{NORMAL}] - Warnung: Wenn du dich nicht in {RED}{1}{NORMAL} Sekunden bewegst, wirst du vom Server entfernt."
+		"da"		"[{GREEN}AFK MANAGER{NORMAL}] - Advarsel: Hvis ikke du bevæger dig inden {RED}{1}{NORMAL} sekunder, vil du blive fjernet fra serveren."
+		"fr"		"[{GREEN}AFK MANAGER{NORMAL}] - Attention: Si vous ne bougez pas dans les {RED}{1}{NORMAL} prochaines secondes, vous serez kické."
+		"pl"		"[{GREEN}AFK MANAGER{NORMAL}] - Uwaga: Jeżeli się nie poruszysz w ciągu {RED}{1}{NORMAL} sekund(y), zostaniesz wykopany z serwera."
+		"hu"		"[{GREEN}AFK MANAGER{NORMAL}] - Figyelem: Ha nem mozdulsz meg {RED}{1}{NORMAL} másodpercen belül, akkor ki leszel dobva AFK miatt!"
+		"ru"		"[{GREEN}AFK MANAGER{NORMAL}] - ВНИМАНИЕ: Начните двигаться, или через {RED}{1}{NORMAL} сек. будете отключены от сервера."
+		"es"		"[{GREEN}AFK MANAGER{NORMAL}] - Advertencia: Si usted no se mueve en {RED}{1}{NORMAL} segundos, usted será expulsado."
+		"pt"		"[{GREEN}AFK MANAGER{NORMAL}] - PERIGO: Se voce nao se mover em {RED}{1}{NORMAL} segundos, voce sera kickado."
+		"tr"		"[{GREEN}AFK MANAGER{NORMAL}] - Dikkat: {RED}{1}{NORMAL} saniye içinde ayrılmazsanız oyundan atılacaksınız."
+	}
+
+	"Move_Announce"
+	{
+		"#format"	"{1:s}"
+		"en"		"[{GREEN}AFK MANAGER{NORMAL}] - {PINK}{1}{NORMAL} was moved to spectate for being AFK too long."
+		"de"		"[{GREEN}AFK MANAGER{NORMAL}] - {PINK}{1}{NORMAL} wurde in den Zuschauermodus versetzt, weil er zu lange in Abwesehenheit war."
+		"da"		"[{GREEN}AFK MANAGER{NORMAL}] - {PINK}{1}{NORMAL} blev gjort til tilskuer for at være AFK for længe."
+		"fr"		"[{GREEN}AFK MANAGER{NORMAL}] - {PINK}{1}{NORMAL} est devenu spectateur pour avoir été AFK trop longtemps."
+		"pl"		"[{GREEN}AFK MANAGER{NORMAL}] - {PINK}{1}{NORMAL} został przeniesiony do obserwatorów ponieważ za długo pozostawał bez ruchu."
+		"hu"		"[{GREEN}AFK MANAGER{NORMAL}] - {PINK}{1}{NORMAL} át lett helyezve nézőnek AFK miatt."
+		"ru"		"[{GREEN}AFK MANAGER{NORMAL}] - {PINK}{1}{NORMAL} был перемещен в наблюдатели из-за длительного бездействия."
+		"es"		"[{GREEN}AFK MANAGER{NORMAL}] - {PINK}{1}{NORMAL} fue movido a espectador por estar AFK."
+		"pt"		"[{GREEN}AFK MANAGER{NORMAL}] - {PINK}{1}{NORMAL} Foi movido para spectador por ficar AFK."
+		"tr"		"[{GREEN}AFK MANAGER{NORMAL}] - {PINK}{1}{NORMAL} uzun süre AFK olduğu için izleyicilere atıldı."
+	}
+
+	"Kick_Announce"
+	{
+		"#format"	"{1:s}"
+		"en"		"[{GREEN}AFK MANAGER{NORMAL}] - {PINK}{1}{NORMAL} was kicked for being AFK too long."
+		"de"		"[{GREEN}AFK MANAGER{NORMAL}] - {PINK}{1}{NORMAL} wurde entfernt, weil er zu lange in Abwesenheit war."
+		"da"		"[{GREEN}AFK MANAGER{NORMAL}] - {PINK}{1}{NORMAL} blev fjernet fra serveren for at være AFK for længe."
+		"fr"		"[{GREEN}AFK MANAGER{NORMAL}] - {PINK}{1}{NORMAL} a été kické pour avoir été AFK trop longtemps."
+		"pl"		"[{GREEN}AFK MANAGER{NORMAL}] - {PINK}{1}{NORMAL} został wykopany ponieważ za długo pozostawał bez ruchu."
+		"hu"		"[{GREEN}AFK MANAGER{NORMAL}] - {PINK}{1}{NORMAL} ki lett dobva AFK miatt."
+		"ru"		"[{GREEN}AFK MANAGER{NORMAL}] - {PINK}{1}{NORMAL} был отключен от сервера из-за длительного бездействия."
+		"es"		"[{GREEN}AFK MANAGER{NORMAL}] - {PINK}{1}{NORMAL} fue expulsado por estar AFK."
+		"pt"		"[{GREEN}AFK MANAGER{NORMAL}] - {PINK}{1}{NORMAL} foi kickado por ficar AFK."
+		"tr"		"[{GREEN}AFK MANAGER{NORMAL}] - {PINK}{1}{NORMAL} uzun süre AFK olduğu için oyundan atıldı."
+	}
+
+	"Kick_Message"
+	{
+		"en"		"You were kicked for being AFK too long."
+		"de"		"Du wurdest vom Server entfernt, weil du zu lange in Abwesenheit warst."
+		"da"		"Du blev fjernet fra serveren fordi du var AFK for længe."
+		"fr"		"Vous avez été kické pour avoir été AFK trop longtemps."
+		"pl"		"Zostałeś wykopany ponieważ za długo pozostawałeś bez ruchu."
+		"hu"		"Ki lettél dobva AFK miatt."
+		"ru"		"Вы слишком долго бездействовали!"
+		"es"		"Usted fue expulsado por estar demasiado tiempo AFK (Lejos del teclado)."
+		"pt"		"Voce foi kickado por ficar AFK."
+		"tr"		"Uzun süre AFK olduğunuz için oyundan atıldınız."
+	}
+	
+/******************* PLUGIN: HIGH PING KICKER *******************/
+	"High Ping Kicker Kick"
+	{
+		"#format"	"{1:s},{2:i},{3:i}"
+		"en"		"[{GREEN}HIGH PING KICKER{NORMAL}] - {PINK}{1}{NORMAL} have beed kicked. Ping: {RED}{2}{NORMAL}, max: {RED}{3}{NORMAL}"
+		"fr"		"[{GREEN}HIGH PING KICKER{NORMAL}] - {PINK}{1}{NORMAL} a été kické. Ping: {RED}{2}{NORMAL}, max: {RED}{3}{NORMAL}"
+	}
+	"High Ping Kicker Kick me"
+	{
+		"#format"	"{1:i},{2:i}"
+		"en"		"Your ping is too high: {1}, max: {2}"
+		"fr"		"Votre ping est trop élevé: {1}, max: {2}"
+	}
+}
