@@ -21,10 +21,17 @@
 //***********************************//
 
 //Handle
-new Handle:H_active_track_bomb_menu_csgo;
-new Handle:H_active_show_damage_menu_csgo;
-new Handle:H_active_sounds_kill_menu_csgo;
+#if defined TRACK_BOMB_CSGO_LOADED
+	new Handle:H_active_track_bomb_menu_csgo;
+#endif
 
+#if defined SHOW_DAMAGE_CSGO_LOADED
+	new Handle:H_active_show_damage_menu_csgo;
+#endif
+
+#if defined SOUNDS_KILL_CSGO_LOADED
+	new Handle:H_active_sounds_kill_menu_csgo;
+#endif
 //Bool
 new bool:B_active_track_bomb_menu_csgo;
 new bool:B_active_show_damage_menu_csgo;
@@ -35,10 +42,17 @@ new bool:B_active_sounds_kill_menu_csgo;
 /***********************************************************/
 public OnPluginStartMenuGeneralCsgo()
 {
-	H_active_track_bomb_menu_csgo 			= FindConVar("active_track_bomb_csgo");
-	H_active_show_damage_menu_csgo 			= FindConVar("active_show_damage_csgo");
-	H_active_sounds_kill_menu_csgo 			= FindConVar("active_sounds_kill_csgo");
-
+	#if defined TRACK_BOMB_CSGO_LOADED
+		H_active_track_bomb_menu_csgo 			= FindConVar("active_track_bomb_csgo");
+	#endif
+	
+	#if defined SHOW_DAMAGE_CSGO_LOADED
+		H_active_show_damage_menu_csgo 			= FindConVar("active_show_damage_csgo");
+	#endif	
+	
+	#if defined SOUNDS_KILL_CSGO_LOADED
+		H_active_sounds_kill_menu_csgo 			= FindConVar("active_sounds_kill_csgo");
+	#endif
 	HookEventsMenuGeneralCsgo();
 	
 	RegConsoleCmd("sm_aio",		Command_MenuGeneralCsgo, 		"AIO menu general");
@@ -49,9 +63,17 @@ public OnPluginStartMenuGeneralCsgo()
 /***********************************************************/
 HookEventsMenuGeneralCsgo()
 {
+	#if defined TRACK_BOMB_CSGO_LOADED
 	HookConVarChange(H_active_track_bomb_menu_csgo, 				Event_CvarChangeStartMenuGeneralCsgo);
-	HookConVarChange(H_active_show_damage_menu_csgo, 				Event_CvarChangeStartMenuGeneralCsgo);
-	HookConVarChange(H_active_sounds_kill_menu_csgo, 				Event_CvarChangeStartMenuGeneralCsgo);
+	#endif
+	
+	#if defined SHOW_DAMAGE_CSGO_LOADED
+		HookConVarChange(H_active_show_damage_menu_csgo, 				Event_CvarChangeStartMenuGeneralCsgo);
+	#endif
+	
+	#if defined SOUNDS_KILL_CSGO_LOADED
+		HookConVarChange(H_active_sounds_kill_menu_csgo, 				Event_CvarChangeStartMenuGeneralCsgo);
+	#endif
 }
 
 /***********************************************************/
